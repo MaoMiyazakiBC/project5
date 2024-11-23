@@ -1,0 +1,109 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(135deg, #000000, #1b1b1b);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.gaming-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background: #4169E1;
+    color: #008080;
+    padding: 2rem;
+    border-bottom: 5px solid #00ffcc;
+}
+
+header p {
+    color: #ffde59; 
+}
+
+header h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 2rem;
+    text-shadow: 0 0 8px #F5FFFA, 0 0 12px #C0C0C0;
+}
+
+.section-page {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #1b1b1b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.3);
+}
+
+.text-box {
+    position: relative;
+    padding: 1.5rem;
+    background: #282828;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: 'Jacquarda Bastarda 9', serif;
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #ffde59; 
+    text-shadow: 0 0 5px #00ffcc; 
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.4rem; 
+}
+
+.citation {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1rem; 
+}
+
+.game-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+iframe {
+    max-width: 100%; 
+    width: 800px;    
+    height: 350px;   
+    border: none;    
+    margin: 10px 0;  
+}
+
+.citation {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+footer {
+    text-align: center;
+    background: #121212;
+    color: #ffffff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer nav {
+    margin-bottom: 1rem;
+}
+
+footer nav a {
+    color: #00ffcc;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+    color: #ffde59;
+}
